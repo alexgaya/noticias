@@ -1,0 +1,54 @@
+html, body{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#a{
+	display: grid;
+	margin-top: 15px;
+}
+#b{
+	margin: 0px 10px 0px 10px;
+}
+a:hover{
+	text-decoration: none;
+}
+.thumbnail{
+	transition: all 0.4s ease;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.thumbnail:hover{
+	transform: scale(1.02);
+}
+#c{
+	background-color: orangered; 
+	height: 90px; 
+	width: 100%; 
+	display: none;
+}
+#asd{
+	height: 300px; 
+	width: 320px; 
+	padding-right: 15px;
+}
+@media screen and (max-width: 960px) {
+	#b{
+		display: none;
+	}
+	#a{
+		display: block;
+	}
+	#c{
+		display: block;
+	}
+	#asd{
+		height: auto;
+		width: auto;
+		padding-right: 0px;
+	}
+	#z{
+		margin-top: 15px;
+	}
+}
