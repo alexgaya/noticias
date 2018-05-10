@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	//Cambiar el nombre de las clases al hacer la pantalla pequeña
-	$(window).on('resize', function(){cambiarClases();});
+	$(window).resize(function(){cambiarClases();});
 });
 
 function cambiarClases(){
