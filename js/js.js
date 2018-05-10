@@ -7,8 +7,10 @@ function cambiarClases(){
 	if($(window).width() < 960 ) {
     	$('#z').removeClass('clearfix');
         $('#asd').removeClass('pull-left');
+	$('#zz').removeClass('pull-rigth');
     }else{
         $('#asd').addClass('pull-left');
-        $('#z').addClass('clearfix');	
+        $('#z').addClass('clearfix');
+	$('#zz').addClass('pull-rigth');
     }
 }
