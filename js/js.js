@@ -1,3 +1,5 @@
+var cont = 1;
+
 $(document).ready(function(){
 	//Cambiar el nombre de las clases al hacer la pantalla pequeña
 	$(window).resize(function(){cambiarClases();});
@@ -17,7 +19,6 @@ function cambiarClases(){
 }
 
 function leerJson(){
-    var cont = 1;
     $.getJSON("https://rawgit.com/alexgaya/noticias/master/json/" + cont + ".json", function(jsonObject){
         cargarJson(jsonObject);
     });
