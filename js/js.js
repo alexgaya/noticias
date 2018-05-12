@@ -1,9 +1,14 @@
-var cont = 1;
-
+var cont = 1; /*Contador para cargar los json*/
+var scroll = true; /*Boolean para activar/desactivar leerJson() al hacer scroll*/
 $(document).ready(function(){
-	//Cambiar el nombre de las clases al hacer la pantalla pequeña
+	/*Cambiar el nombre de las clases al hacer la pantalla pequeña*/
 	$(window).resize(function(){cambiarClases();});
+
+    /*Leer y cargar Json al hacer click en el botón "cargar más" */
     $('#btn').click(function(){leerJson();});
+
+    /*Activar/desactivar leerJson() al hacer scroll*/
+    $("#toggle").click(function(){toggleScroll();});
 });
 
 function cambiarClases(){
@@ -25,7 +30,11 @@ function leerJson(){
         });
         cont++;
     }else{
-        $(".alert").fadeIn("slow").delay(2000).fadeOut("slow");
+        /*Cuando no hay más documentos Json salta una alerta "No hay más noticias" */
+        if ($("#btn").text() != "No hay más noticias") {
+            $("#nomore").fadeIn("slow").delay(2000).fadeOut("slow");
+        }
+        $("#btn").text("No hay más noticias");
     }
 }
 
@@ -51,3 +60,21 @@ function cargarJson(json){
         ); 
     });
 }
+
+function toggleScroll(){
+    if (scroll) {
+        scroll = false;
+        $("#desactivado").fadeIn("slow").delay(2000).fadeOut("slow");
+    } else {
+        scroll = true;
+        $("#activado").fadeIn("slow").delay(2000).fadeOut("slow");
+    }
+}
+
+$(window).scroll(function () {
+    if(scroll){
+        if ($(window).scrollTop() + $(window).height() + 5 >= $(document).height()) {
+            leerJson();
+        }
+    }
+});
