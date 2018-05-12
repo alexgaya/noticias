@@ -17,9 +17,11 @@ function cambiarClases(){
 }
 
 function leerJson(){
-    $.getJSON("https://rawgit.com/alexgaya/noticias/master/json/1.json", function(jsonObject){
+    var cont = 0;
+    $.getJSON("https://rawgit.com/alexgaya/noticias/master/json/" + cont + ".json", function(jsonObject){
         cargarJson(jsonObject);
     });
+    cont++;
 }
 
 function cargarJson(json){
