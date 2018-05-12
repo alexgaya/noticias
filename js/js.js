@@ -19,10 +19,14 @@ function cambiarClases(){
 }
 
 function leerJson(){
-    $.getJSON("https://rawgit.com/alexgaya/noticias/master/json/" + cont + ".json", function(jsonObject){
-        cargarJson(jsonObject);
-    });
-    cont++;
+    if(cont < 4){
+        $.getJSON("https://rawgit.com/alexgaya/noticias/master/json/" + cont + ".json", function(jsonObject){
+            cargarJson(jsonObject);
+        });
+        cont++;
+    }else{
+        $(".alert").fadeIn("slow").delay(2000).fadeOut("slow");
+    }
 }
 
 function cargarJson(json){
