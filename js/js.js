@@ -17,7 +17,7 @@ function cambiarClases(){
 }
 
 function leerJson(){
-    var cont = 0;
+    var cont = 1;
     $.getJSON("https://rawgit.com/alexgaya/noticias/master/json/" + cont + ".json", function(jsonObject){
         cargarJson(jsonObject);
     });
