@@ -2,16 +2,19 @@
 	{
 		"img":"img/asd.jpg",
 		"titulo":"Mi título",
-		"descripcion":"aaaaaaaaaaaaaaaaaaaaaaa"
+		"descripcion":"aaaaaaaaaaaaaaaaaaaaaaa",
+		"fecha":"2/2/2018"
 	},
 	{
 		"img":"img/ee.jpg",
 		"titulo":"Mi título",
-		"descripcion":"aaaaaaaaaaaaaaaaaaaaaaa"
+		"descripcion":"aaaaaaaaaaaaaaaaaaaaaaa",
+		"fecha":"2/2/2018"
 	},
 	{
 		"img":"img/ooo.jpg",
 		"titulo":"Mi título",
-		"descripcion":"aaaaaaaaaaaaaaaaaaaaaaa"
+		"descripcion":"aaaaaaaaaaaaaaaaaaaaaaa",
+		"fecha":"2/2/2018"
 	}
 ]
