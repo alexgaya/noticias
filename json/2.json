@@ -1,0 +1,20 @@
+[
+	{
+		"imagen":"img/nubia-red-magic-2.jpg",
+		"titulo":"Características del Nubia Red Magic, el primer móvil gaming de la firma",
+		"descripcion":"Qué día tan ajetreado llevamos, primero fue el Honor 10, después toda la gama de Motorola, los Moto G6, y ahora le toca el turno al primer móvil de gaming de Nubia. Vamos a conocer las características del Nubia Red Magic..",
+		"fecha":"5/1/2018"
+	},
+	{
+		"imagen":"img/moto-e5-tdg.jpg",
+		"titulo":"Características del Moto E5 y Moto E5 Plus, la gama media económica",
+		"descripcion":"Hoy es un día señalado para Motorola, básicamente por el lanzamiento de su nueva gama media de terminales, los nuevos Moto G6 presentados hace unos minutos. Y tampoco a faltado a la cita la gama media más económica de la firma...",
+		"fecha":"5/1/2018"
+	},
+	{
+		"imagen":"img/honor-10-portada-tdg.jpg",
+		"titulo":"Precio y características del Honor 10, presentado con notch y Kirin 970",
+		"descripcion":"El Honor 10 se esperaba para hoy con pocas sorpresas, más que nada porque habíamos visto muchas imágenes con su diseño y nos podíamos imaginar que sería un móvil con unas características muy similares al Huawei P20...",
+		"fecha":"5/1/2018"
+	}
+]
