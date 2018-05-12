@@ -49,6 +49,7 @@ a:hover{
 	}
 	#a{
 		display: block;
+		margin-left: 0px;
 	}
 	#c{
 		display: block;
