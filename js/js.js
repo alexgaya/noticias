@@ -31,7 +31,10 @@ function cambiarClases(){
 function leerJson(){
     if(cont < 4){
         $.getJSON("https://rawgit.com/alexgaya/noticias/master/json/" + cont + ".json", function(jsonObject){
-            cargarJson(jsonObject);
+            cargarJsonLeft(jsonObject);
+        });
+        $.getJSON("https://rawgit.com/alexgaya/noticias/master/json/" + cont + "-" + cont + ".json", function(jsonObject){
+        	cargarJsonRight(jsonObject);
         });
         cont++;
     }else{
@@ -42,10 +45,9 @@ function leerJson(){
         $("#btn").text("No hay más noticias");
     }
 }
-
-function cargarJson(json){
+function cargarJsonLeft(json){
     $("#a").append(
-            "<div class='row'></div>"
+        "<div class='row' style='animation: popup 500ms ease-in-out 0s 1 forwards;'></div>"
     );
     $.each(json, function(i, a){
         $(".row:last").append(
@@ -64,6 +66,28 @@ function cargarJson(json){
             "</div>"
         ); 
     });
+}
+
+function cargarJsonRight(json){
+	$.each(json, function(i, a){
+		$("#b").append(
+		"<div id='" + i + cont +"' class='row' style='display: none'></div>"
+		);
+		$("#" + i + cont).append(
+			"<div class='col-md-12'>" +
+			"<a href='###'>" +
+			"<div class='thumbnail t-right'>" +
+			"<div class='caption c-right'>" +
+			"<h3 class='text-center'>" + a.titulo + "</h3>" +
+			"</div>" +
+			"<img src='" + a.img + "' alt='img'>" +
+			"</div>" +
+			"</a>" +
+			"</div>"
+		);
+			$("#" + i + cont).fadeIn(1000);
+	});
+	
 }
 
 function toggleScroll(){
