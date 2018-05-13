@@ -5,7 +5,12 @@ $(document).ready(function(){
 	$(window).resize(function(){cambiarClases();});
 
     /*Leer y cargar Json al hacer click en el botón "cargar más" */
-    $('#btn').click(function(){leerJson();});
+    $('#btn').click(function(){
+    	if ($("#btn").text() === "No hay más noticias") {
+    		$("#nomore").fadeIn("slow").delay(2000).fadeOut("slow");
+    	}
+    	leerJson();
+    });
 
     /*Activar/desactivar leerJson() al hacer scroll*/
     $("#toggle").click(function(){toggleScroll();});
