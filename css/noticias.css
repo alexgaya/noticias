@@ -1,0 +1,11 @@
+#a{
+	display: grid;
+	margin-top: 15px;
+	max-width: 768px;
+}
+#b{
+	margin: 0px 50px 0px 10px;
+	width: 336px;
+	height: auto;
+	padding: 0px;
+}
