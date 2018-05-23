@@ -59,7 +59,7 @@ function cargarJsonLeft(json){
             "<h3 class='text-justify'>" + a.titulo + "</h3>" +
             "<p class='text-left'>" + a.descripcion + "</p>" +
             "<hr>" +
-            "<p class'text-left'>" + a.fecha + "</p>" +
+            "<p class'text-left text-muted'>" + a.fecha + "</p>" +
             "</div>" +
             "</div>" +
             "</a>" +
