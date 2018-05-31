@@ -27,9 +27,6 @@ a:hover{
 	transform: scale(1.02);
 }
 #c{
-	background-color: orangered; 
-	height: 90px; 
-	width: 100%; 
 	display: none;
 }
 #asd{
