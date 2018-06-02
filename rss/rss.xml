@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+	<title>Todas las noticias de los mejores productos tecnológicos ahora a tu alcance</title>
+	<link>https://rawgit.com/alexgaya/noticias/master/index2.html</link>
+	<description>Todo lo que necesitas saber sobre lo último en tecnología, todas las marcas, todos los gadgets están aquí reunidos para que los conozcas a fondo</description>
+	<item>
+		<title>Nuevos datos de la pantalla del iPhone X de 2018, ¿qué ofrecerá?</title>
+		<link>https://rawgit.com/alexgaya/noticias/master/pantalla-iphone-x-2018.html</link>
+		<description>Nuevos rumores apuntan a la posibilidad de que la pantalla del iPhone X Plus de 6.1 pulgadas esté fabricada por LG para abaratar costes.</description>
+		<img>https://raw.githubusercontent.com/alexgaya/noticias/master/img/iphone-x-xs.jpg</img>
+		<pubDate>1/1/2017</pubDate>
+	</item>
+	<item>
+		<title>Desvelado el precio del LG G7 ThinQ y su disponibilidad en España</title>
+		<link>https://rawgit.com/alexgaya/noticias/master/precio-lg-g7.html</link>
+		<description>LG ha confirmado el precio del LG G7 ThinQ además de la disponibilidad de su nuevo buque insignia en España, que llegará en exclusiva con Vodafone.</description>
+		<img>https://rawgit.com/alexgaya/noticias/master/img/Precio-del-LG-G7-750x400.jpg</img>
+		<pubDate>1/1/2017</pubDate>
+	</item>
+	<item>
+		<title>Características del Xiaomi Redmi S2, precio y fecha de lanzamiento</title>
+		<link>https://rawgit.com/alexgaya/noticias/master/caracteristicas-xiaomi-redmi-s2.html</link>
+		<description>Ya sabemos las características del Xiaomi Redmi S2, nuevo teléfono de Xiaomi que acaba de ser presentado para formar parte de la gama media.</description>
+		<img>https://raw.githubusercontent.com/alexgaya/noticias/master/img/Caracter%C3%ADsticas-del-Xiaomi-Redmi-S2-5-750x400.png</img>
+		<pubDate>1/1/2017</pubDate>
+	</item>
+	<item>
+		<title>Android P: novedades anunciadas en el Google I/O</title>
+		<link>https://rawgit.com/alexgaya/noticias/master/novedades-android-p.html</link>
+		<description>Os traemos todas las novedades de Android P durante el Google I/O 2018: sistema de aprendizaje automático, gestos en pantalla, batería inteligente y más.</description>
+		<img>https://rawgit.com/alexgaya/noticias/master/img/Android-P-1-750x400.jpg</img>
+		<pubDate>1/1/2017</pubDate>
+	</item>
+</channel>
+</rss>
+
+
