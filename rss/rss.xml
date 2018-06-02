@@ -11,7 +11,7 @@
 		<guid>https://rawgit.com/alexgaya/noticias/master/pantalla-iphone-x-2018.html</guid>
 		<link>https://rawgit.com/alexgaya/noticias/master/pantalla-iphone-x-2018.html</link>
 		<description>
-			<![CDATA[<img src="https://raw.githubusercontent.com/alexgaya/noticias/master/img/iphone-x-xs.jpg" alt="iphone-img">]>
+			<![CDATA[<img src="https://raw.githubusercontent.com/alexgaya/noticias/master/img/iphone-x-xs.jpg" alt="iphone-img">]]>
 			Nuevos rumores apuntan a la posibilidad de que la pantalla del iPhone X Plus de 6.1 pulgadas esté fabricada por LG para abaratar costes.
 		</description>
 		<pubDate>Sun, 1 Jan 2017 00:00:00 +0200</pubDate>
@@ -21,7 +21,7 @@
 		<guid>https://rawgit.com/alexgaya/noticias/master/precio-lg-g7.html</guid>
 		<link>https://rawgit.com/alexgaya/noticias/master/precio-lg-g7.html</link>
 		<description>
-			<![CDATA[<img src="https://rawgit.com/alexgaya/noticias/master/img/Precio-del-LG-G7-750x400.jpg" alt="g7-img">]>
+			<![CDATA[<img src="https://rawgit.com/alexgaya/noticias/master/img/Precio-del-LG-G7-750x400.jpg" alt="g7-img">]]>
 			LG ha confirmado el precio del LG G7 ThinQ además de la disponibilidad de su nuevo buque insignia en España, que llegará en exclusiva con Vodafone.
 		</description>
 		<pubDate>Sun, 1 Jan 2017 00:00:00 +0200</pubDate>
@@ -31,7 +31,7 @@
 		<guid>https://rawgit.com/alexgaya/noticias/master/caracteristicas-xiaomi-redmi-s2.html</guid>
 		<link>https://rawgit.com/alexgaya/noticias/master/caracteristicas-xiaomi-redmi-s2.html</link>
 		<description>
-			<![CDATA[<img src="https://raw.githubusercontent.com/alexgaya/noticias/master/img/Caracter%C3%ADsticas-del-Xiaomi-Redmi-S2-5-750x400.png" alt="redmi-s2-img">]>
+			<![CDATA[<img src="https://raw.githubusercontent.com/alexgaya/noticias/master/img/Caracter%C3%ADsticas-del-Xiaomi-Redmi-S2-5-750x400.png" alt="redmi-s2-img">]]>
 			Ya sabemos las características del Xiaomi Redmi S2, nuevo teléfono de Xiaomi que acaba de ser presentado para formar parte de la gama media.
 		</description>
 		<pubDate>Sun, 1 Jan 2017 00:00:00 +0200</pubDate>
@@ -41,10 +41,11 @@
 		<guid>https://rawgit.com/alexgaya/noticias/master/novedades-android-p.html</guid>
 		<link>https://rawgit.com/alexgaya/noticias/master/novedades-android-p.html</link>
 		<description>
-			<![CDATA[<img src="https://rawgit.com/alexgaya/noticias/master/img/Android-P-1-750x400.jpg" alt="androidp-img">]>
+			<![CDATA[<img src="https://rawgit.com/alexgaya/noticias/master/img/Android-P-1-750x400.jpg" alt="androidp-img">]]>
 			Os traemos todas las novedades de Android P durante el Google I/O 2018: sistema de aprendizaje automático, gestos en pantalla, batería inteligente y más.
 		</description>
 		<pubDate>Sun, 1 Jan 2017 00:00:00 +0200</pubDate>
 	</item>
 </channel>
 </rss>
+
