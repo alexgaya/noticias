@@ -8,6 +8,7 @@
 	<description>Todo lo que necesitas saber sobre lo último en tecnología, todas las marcas, todos los gadgets están aquí reunidos para que los conozcas a fondo</description>
 	<item>
 		<title>Nuevos datos de la pantalla del iPhone X de 2018, ¿qué ofrecerá?</title>
+		<guid>https://rawgit.com/alexgaya/noticias/master/pantalla-iphone-x-2018.html</guid>
 		<link>https://rawgit.com/alexgaya/noticias/master/pantalla-iphone-x-2018.html</link>
 		<description>
 			<![CDATA[<img src="https://raw.githubusercontent.com/alexgaya/noticias/master/img/iphone-x-xs.jpg" alt="iphone-img">]>
@@ -17,6 +18,7 @@
 	</item>
 	<item>
 		<title>Desvelado el precio del LG G7 ThinQ y su disponibilidad en España</title>
+		<guid>https://rawgit.com/alexgaya/noticias/master/precio-lg-g7.html</guid>
 		<link>https://rawgit.com/alexgaya/noticias/master/precio-lg-g7.html</link>
 		<description>
 			<![CDATA[<img src="https://rawgit.com/alexgaya/noticias/master/img/Precio-del-LG-G7-750x400.jpg" alt="g7-img">]>
@@ -26,6 +28,7 @@
 	</item>
 	<item>
 		<title>Características del Xiaomi Redmi S2, precio y fecha de lanzamiento</title>
+		<guid>https://rawgit.com/alexgaya/noticias/master/caracteristicas-xiaomi-redmi-s2.html</guid>
 		<link>https://rawgit.com/alexgaya/noticias/master/caracteristicas-xiaomi-redmi-s2.html</link>
 		<description>
 			<![CDATA[<img src="https://raw.githubusercontent.com/alexgaya/noticias/master/img/Caracter%C3%ADsticas-del-Xiaomi-Redmi-S2-5-750x400.png" alt="redmi-s2-img">]>
@@ -35,6 +38,7 @@
 	</item>
 	<item>
 		<title>Android P: novedades anunciadas en el Google I/O</title>
+		<guid>https://rawgit.com/alexgaya/noticias/master/novedades-android-p.html</guid>
 		<link>https://rawgit.com/alexgaya/noticias/master/novedades-android-p.html</link>
 		<description>
 			<![CDATA[<img src="https://rawgit.com/alexgaya/noticias/master/img/Android-P-1-750x400.jpg" alt="androidp-img">]>
